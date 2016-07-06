@@ -121,7 +121,7 @@ public class AppController {
 
 	
 	/*
-	 * This method will delete an employee by it's SSN value.
+	 * Este método irá apagar um empregado por valor via SSN.
 	 */
 	@RequestMapping(value = { "/delete-{ssn}-employee" }, method = RequestMethod.GET)
 	public String deleteEmployee(@PathVariable String ssn) {
