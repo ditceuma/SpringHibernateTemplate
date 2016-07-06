@@ -95,8 +95,8 @@ public class AppController {
 	}
 	
 	/*
-	 * This method will be called on form submission, handling POST request for
-	 * updating employee in database. It also validates the user input
+	 * Este método será chamado no envio do formulário, tratamento de solicitação POST para
+	 * Atualizar empregado na base de dados. Ele também valida a entrada do usuário
 	 */
 	
 	@RequestMapping(value = { "/edit-{ssn}-employee" }, method = RequestMethod.POST)
